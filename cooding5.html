@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        var Dolphins1 = 44;
+        var Dolphins2 = 23;
+        var Dolphins3 = 71;
+
+        var Koalas1 = 85;
+        var Koalas2 = 54;
+        var Koalas3 = 41;
+
+        var calcAverage1 = (Dolphins1 + Dolphins2 + Dolphins3) / 3;
+        var calcAverage2 = (Koalas1 + Koalas1 + Koalas1) / 3;
+
+        const checkWinner = (calcAverage1, calcAverage2) => {
+            if (calcAverage1 > calcAverage2) {
+                console.log(`Dolphins thang ${calcAverage1} Koalas thua ${calcAverage2}`);
+            } else if (calcAverage1 < calcAverage2) {
+                console.log(`Dolphins thua ${calcAverage1} Koalas thang ${calcAverage2}`);
+            } else {
+                console.log(`Dolphins  ${calcAverage1} hoa Koalas ${calcAverage2}`);
+            }
+        };
+
+        console.log(`trung binh cong Dolphins1 ${calcAverage1}`);
+        console.log(`trung binh cong Dolphins2 ${calcAverage2}`);
+    </script>
+</body>
+
+</html>
